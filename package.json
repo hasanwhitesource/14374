@@ -1,0 +1,23 @@
+{
+  "name": "renovate-test-jest",
+  "version": "1.0.0",
+  "description": "Renovate Bot Test for Jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SchroederSteffen/renovate-test-jest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SchroederSteffen/renovate-test-jest/issues"
+  },
+  "homepage": "https://github.com/SchroederSteffen/renovate-test-jest#readme",
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1"
+  }
+}
