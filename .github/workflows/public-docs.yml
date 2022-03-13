@@ -1,0 +1,32 @@
+name: publish-docs
+
+on:
+  push:
+    branches:
+      - '**'
+      - '!gh-pages'
+  pull_request:
+    branches:
+      - 'main'
+
+env:
+  node-version: 14.x
+  python-version: 3.x
+
+jobs:
+  build:
+    name: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: reviewdog/action-shellcheck@v1.13.0
+      - name: Run shellcheck
+        uses: reviewdog/action-shellcheck@v1.13.0
+        with:
+          reporter: github-pr-review
+          filter_mode: nofilter
+          path: |
+            bin
+            .husky
+          pattern: '*.sh'
+          check_all_files_with_shebangs: 'true'
