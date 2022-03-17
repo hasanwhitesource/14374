@@ -5,7 +5,7 @@
    "packageRules": [
     {
        "matchPackageNames": ["@types/jest"],
-       "groupName": "jest monorepo",
+       "groupName": "Pin Dependencies",
        "matchUpdateTypes": ["major", "minor", "patch"]
     }
   ]
