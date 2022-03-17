@@ -1,4 +1,5 @@
 {
+   "rangeStrategy": "pin",
    "packageRules": [
     {
        "matchPackageNames": ["@types/jest"],
