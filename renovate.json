@@ -5,8 +5,7 @@
    "packageRules": [
     {
        "matchPackageNames": ["@types/jest"],
-       "groupName": "Pin Dependencies",
-       "matchUpdateTypes": ["major", "minor", "patch"]
+       "groupName": "Pin Dependencies"
     }
   ]
 }
