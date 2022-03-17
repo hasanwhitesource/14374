@@ -1,5 +1,11 @@
 {
    "extends": [
     "config:base"
+  ],
+   "packageRules": [
+    {
+      "matchUpdateTypes": ['major', 'minor', 'patch'],
+      "labels": ['UPDATE-MAJOR']
+    }
   ]
 }
