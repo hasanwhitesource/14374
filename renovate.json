@@ -4,7 +4,9 @@
   ],
    "packageRules": [
     {
-      "matchUpdateTypes": ["major", "minor", "patch"]
+       "matchPackageNames": ["@types/jest"],
+       "groupName": "jest monorepo",
+       "matchUpdateTypes": ["major", "minor", "patch"]
     }
   ]
 }
