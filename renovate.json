@@ -5,7 +5,7 @@
    "packageRules": [
     {
        "matchPackageNames": ["@types/jest"],
-       "groupName": "Pin Dependencies"
+       "rangeStrategy": "pin"
     }
   ]
 }
