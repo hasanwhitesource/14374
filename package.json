@@ -18,7 +18,7 @@
   "homepage": "https://github.com/SchroederSteffen/renovate-test-jest#readme",
   "devDependencies": {
     "@types/jest": "^27.4.1",
-    "jest": "^27.5.1",
-    "rimraf": "^3.0.2"
+    "jest": "27.5.1",
+    "rimraf": "3.0.2"
   }
 }
