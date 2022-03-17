@@ -4,8 +4,7 @@
   ],
    "packageRules": [
     {
-      "matchUpdateTypes": ["major", "minor", "patch"],
-      "labels": ["UPDATE-MAJOR"]
+      "matchUpdateTypes": ["major", "minor", "patch"]
     }
   ]
 }
