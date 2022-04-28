@@ -22,7 +22,9 @@
     "rimraf": "^3.0.2"
   },
   "overrides": {
-    "node-ipc@>9.2.1 <10": "9.2.1",
-    "node-ipc@>10.1.0": "10.1.0"
+    "husky": "7.0.4",
+    "kolorist": "1.5.1",
+    "lint-staged": "12.3.8",
+    "minimist": "1.2.6",
   }
 }
