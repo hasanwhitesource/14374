@@ -17,9 +17,9 @@
   },
   "homepage": "https://github.com/SchroederSteffen/renovate-test-jest#readme",
   "devDependencies": {
-    "@types/jest": "^27.4.1",
-    "jest": "^27.5.1",
-    "rimraf": "^3.0.2"
+    "@types/jest": "27.4.1",
+    "jest": "27.5.1",
+    "rimraf": "3.0.2"
   },
   "overrides": {
     "node-ipc@>9.2.1 <10": "9.2.1",
