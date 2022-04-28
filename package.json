@@ -24,7 +24,7 @@
   "overrides": {
     "husky": "7.0.4",
     "kolorist": "1.5.1",
-    "lint-staged": "12.3.8",
+    "lint-staged": "12.4.1",
     "minimist": "1.2.6"
   }
 }
