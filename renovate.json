@@ -1,9 +1,3 @@
 {
-   "rangeStrategy": "pin",
-   "packageRules": [
-    {
-       "matchPackageNames": ["@types/jest"],
-       "groupName": "Pin Dependencies"
-    }
-  ]
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json"
 }
